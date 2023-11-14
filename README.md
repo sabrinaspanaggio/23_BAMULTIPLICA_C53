@@ -33,5 +33,6 @@ Sabrina Panaggio
 Si tienes preguntas o comentarios, ponte en contacto conmigo en *sabripanaggio@gmail.com* 
 
 ## ERRORES:
-(En la página INDEX - LANDINGPAGE, los botones de las cards no funcionan cuando lo subo a GITHUB, SI funcionan en la pc local, lo mismo pasa con algunos links de la sección de productos, estoy viendo porqué pasa eso para resolverlo, pero si ingresas desde PREDUCTOS/CONTACTO/NOSOTROS, funciona perfectamente.)
+-(En la página INDEX - LANDINGPAGE, los botones de las cards a veces no funcionan cuando lo subo a GITHUB, SI funcionan en la pc local, lo mismo pasa con algunos links de la sección de productos, estoy viendo porqué pasa eso para resolverlo, pero si ingresas desde PREDUCTOS/CONTACTO/NOSOTROS, funciona perfectamente.)
+-En responsive, hay algunos detalles de formularios que no se ven correctamente.
 
