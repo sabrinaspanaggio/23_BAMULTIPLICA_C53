@@ -1,0 +1,347 @@
+/*Conf GRAL de la página */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    width: 100%;
+   }
+
+#header {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/* aquí comienza a verse todo el proceso del menu desplegable */
+
+ul,
+ol {
+    margin-inline-start: auto;
+    list-style: none;
+    float: left;
+}
+
+.nav li {
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 89, 167);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    z-index: 1000; /*Propiedad para que el menu desplegable quede arriba de las imagenes de Bootstrap*/
+}
+
+.nav li:hover {
+    background-color: rgb(68, 80, 87);
+    color: aliceblue;
+}
+
+.nav>li {
+    float: left;
+    }
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    min-width: 160px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: +158px;
+    top: 0px;
+}
+
+.nav li ul li ul li ul {
+    right: +115px;
+}
+
+/*Hasta aqui es el menú desplegable*/
+
+/*aca comienza el carrusel*/
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+}
+
+/*acá comienza el editor de el contenedor del núcleo proteico contenedor texto + img */
+
+.contenedortextoimg {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 89, 167);
+    padding: 30px 40px;
+    align-items: center;
+    height: auto;
+}
+
+
+h2 {
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    padding: 40px 30px;
+}
+
+.btn{
+background-color: rgb(0, 89, 167);
+}
+
+.btn a{
+    text-decoration: none;
+    color:  rgb(233, 233, 233);
+}
+
+.imagen1 {
+    width: 30%;
+    margin-right: 50px;
+    
+}
+
+/*Aca comienza el editor de las doble cards*/
+
+.doblecard{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.cardimg {
+    width: 100%;
+    display: block;
+}
+
+/*aquí nos vamos a la configuracion del formulario de contacto*/
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 89, 167);
+    padding: 30px 40px;
+       
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+/*Hasta acá la configuracion del formulario de contacto*/
+
+/*Configuración del Footer*/
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Configuración Página NOSOTROS*/
+
+.nav1 a {
+text-decoration: none;
+color: rgb(0, 89, 167);
+}
+
+.nav1 a:hover {
+    background-color: rgb(68, 80, 87);
+    color: aliceblue;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 89, 167);
+    padding: 0px 0px;
+    align-items: center;
+    height: auto;
+}
+
+.col-md-8{
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    padding: 110px 10px;
+    align-items: center;
+    height: auto;
+}
+
+.card-title{
+    color: rgb(0, 89, 167);
+    text-align: center;
+}
+
+.card-text-nosotros{
+    font-size: 20px;
+}
+
+.card-text-nosotros1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 89, 167)
+}
+
+/*Configuracion de la Página PRODUCTOS*/
+
+#consumohumano {
+    margin: 20px;
+}
+
+#consumoanimal {
+   margin: 20px;
+}
+
+.card8 {
+    background-color: rgb(233, 233, 233) ;
+    color: rgb(0, 89, 167);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.card8:hover {
+    transform: scale(1.05);
+    background-color: rgb(68, 80, 87);
+    color: aliceblue
+}
+
+.card81:hover {
+    transform: scale(1.05);
+    color: rgb(68, 80, 87);
+    background-color: aliceblue
+}
+
+.card-content {
+    display: none;
+    margin-top: 8px;
+}
+
+.card81 {
+    background-color: rgb(233, 233, 233) ;
+    color: rgb(0, 89, 167);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 26px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+/*Configuración del responsive design */
+
+@media (max-width: 720px){
+        
+    .nav {
+        z-index: 1001;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+    .nav_toggle {
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background: rgb(0, 89, 167);
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .close span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .close span:nth-child(2){
+        display: none;
+    }
+    .close span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+    .open{ transform: translateX(0) !important}
+
+
+    .nav li ul {
+        left: 96px;
+        margin-top: -50px;
+    }
+    
+    .nav li ul li ul {
+        left: 275px;
+        margin-top: -2px;
+    }
+    
+    .nav li ul li ul li ul {
+        left: 275px;
+    }
+
+    /*Carrusel en Página Principal responsive */
+    .carousel-inner {
+        width: 100%;
+        height: 100px;}
+
+    /*Formulario en Página Principal para Responsive*/
+    .container-form form textarea{
+        max-width: 150px;
+        min-width: 100px;
+        min-height: 100px;
+        max-height: 150px;
+    }    
+}

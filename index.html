@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>páginaintersolutionsba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <a href="./index.html"><img src="./imagenes/logo-sin-fondo-Intersolutions.png"
+                width="250px" alt="Intersolutions" id="logo"></a>
+            <ul class="nav" id="_items">
+                <li class="nav1"><a href="./index.html"> Inicio</a></li>
+                <li class="nav1"><a href="./index-productos.html"> Productos</a>
+                    <ul>
+                        <li class="nav1"><a href="./index-productos.html #consumohumano"> Consumo Humano</a>
+                            <ul>
+                                <li><a href="./index-productos.html #consumohumano"> Raya</a></li> <!-- colocamos a todos los de la clase la misma redirección porque están juntitos en la página, se podria igualmente redireccionar cada uno a su respectiva. -->
+                                <li><a href="./index-productos.html #consumohumano">Calamar</a></li>
+                                <li><a href="./index-productos.html #consumohumano"> Langostino</a></li>
+                                <li><a href="./index-productos.html #consumohumano">Sardina Congelada</a></li>
+                                <li><a href="./index-productos.html #consumohumano">Aceite de pescado</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav1"><a href="./index-productos.html #nucleoproteico"> Consumo Animal</a>
+                            <ul>
+                                <li class="nav1"><a href="./index-productos.html #nucleoproteico">Harina de Pescado</a>
+                                    <ul>
+                                        <li class="nav1"><a href="./index-productos.html #nucleoproteico">Harina Premium</a></li>
+                                        <li class="nav1"><a href="./index-productos.html #nucleoproteico">Harina Standard</a></li>
+                                        <li class="nav1"><a href="./index-productos.html #nucleoproteico">Harina de Hígado</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav1"><a href="./index-productos.html #nucleoproteico">Aceite de Pescado</a></li>
+                                <li class="nav1"><a href="./index-productos.html #nucleoproteico">Núcleo Proteico</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav1"><a href="./index - nosotros.html"> Nosotros</a></li>
+                <li class="nav1"><a href="./index-contacto.html"> Contacto</a></li>           
+            </ul>
+            <div class="nav_toggle" id="_toggle">  <!-- para hacer menu hamburguesa en responsive -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/shoal-fish-underwater.jpg" class="d-block w-100" alt="Pecesmarluz">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/Langostino.jpg" class="d-block w-100" alt="Langostino">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/peces.jpg" class="d-block w-100" alt="peces">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div>
+        <br>
+    </div>
+
+    <div class="contenedortextoimg">
+        <div class="texto1">
+            <h2 id="núcleo_proteico">Núcleo Proteico</h2>
+            <p class="parrafonucleo">Nuestro Núcleo de Raya posee Condrotín + Glucosamina, dos compuestos esenciales
+                para el bienestar animal.</p>
+            <button class="btn btn-primary btn-lg"><a href="./index-productos.html #consumoanimal"> Quiero saber más </a></button>
+        </div>
+        <img class="imagen1" src="./imagenes/raya nucleo.jpg" alt="Núcleo Proteico de Raya">
+
+    </div>
+    <div>
+        <br>
+    </div>
+
+    <div class="doblecard">
+        <div class="card" style="width: 500px;">
+            <img src="./imagenes/Aceite de pescado.jpg" class="cardimg-top" alt="aceite de Pescado">
+            <div class="card-body">
+                <h5 class="card-title">Aceite Refinado de Pescado</h5>
+                <p class="card-text">Constituido de materia grasa de consistencia fluida a temperatura ambiente,
+                    extraída por presión o fusión de tejidos de pescado y estabilizada por la adición de antioxidantes o
+                    procesos térmicos.</p>
+                <button class="btn btn-primary"><a href="./index-productos.html #consumoanimal">Ver más</a></button>
+            </div>
+        </div>
+        <br>
+        <div class="card" style="width: 500px;">
+            <img src="./imagenes/Harina de Pescado.jpg" class="cardimg-top" alt="harina de Pescado">
+            <div class="card-body">
+                <h5 class="card-title">Harina Premium</h5>
+                <p class="card-text">Elaborada en un 70% utulizando pescado fresco, (coniditrios y merluza) no
+                    descompuesto (entero o fileteado, recortes y pedazos) y un 30% pescados tunidos (anchoa, salmón y
+                    atún).</p><br>
+                <button class="btn btn-primary"><a href="./index-productos.html #consumoanimal">Ver más</a></button>
+            </div>
+        </div>
+    </div>
+    <div>
+    <br>
+    </div>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contacto</h2>
+            <p> <b>Mail:</b> ventas@intersolutionssa.com
+                <br>
+                <b>Teléfono:</b> +5492235966707
+            </p>
+        </div>
+        <form action="#" autocomplete="off" onsubmit="return validarFormulario()">
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" class="campo" required>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu email" class="campo" required>
+            <textarea name="mensaje" id="mensaje" name="mensaje" placeholder="Ingresa tu mensaje" class="campo" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>   
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="container-footer">
+        <div class="elements-footer">
+            &copy; 2023 
+        </div>
+        <div class="container-footer1">
+            <div class="elements-footer">
+             <b>Intersolutions SA.</b> | Política de cookies | Aviso legal
+            
+            </div>
+        <div class="elements-footer2">
+        <b> Mar del Plata, Buenos Aires, Argentina </b>
+        </div>
+    </div>
+</footer>
+</html>
