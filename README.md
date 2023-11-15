@@ -32,6 +32,5 @@ Sabrina Panaggio
 ## Contacto
 Si tienes preguntas o comentarios, ponte en contacto conmigo en *sabripanaggio@gmail.com* 
 
-## ERRORES:
--Hay algunas cards que si coloco el visor de ls pc en responsive se ven correctamente, y en el celu no. estoy viendo si eso se puede corregir.
+
 
