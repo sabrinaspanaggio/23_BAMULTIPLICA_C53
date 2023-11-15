@@ -339,9 +339,29 @@ color: rgb(0, 89, 167);
 
     /*Formulario en Página Principal para Responsive*/
     .container-form form textarea{
-        max-width: 150px;
+        max-width: 450px;
         min-width: 100px;
         min-height: 100px;
-        max-height: 150px;
-    }    
+        max-height: 250px;
+    }  
+    
+    @media screen and (max-width: 600px) {
+        .container-form {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+    
+        .info-form,
+        .container-form form {
+            width: 100%;
+        }
+    } 
+
+    .btn {
+        
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
