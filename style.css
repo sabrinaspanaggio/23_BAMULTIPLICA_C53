@@ -338,7 +338,7 @@ color: rgb(0, 89, 167);
         height: 100px;}
 
     /*Card+img en pantallas responsive*/
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 600px) {
         .contenedortextoimg {
             flex-direction: column-reverse; /* Cambiar a disposición de columna en pantallas pequeñas */
             align-items: center; /* Centrar los elementos en el eje horizontal */
@@ -352,7 +352,7 @@ color: rgb(0, 89, 167);
     }    
 
     /*Doble cards en responsive*/
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 600px) {
         .doblecard {
             flex-direction: column; /* Cambiar a disposición de columna en pantallas pequeñas */
             align-items: center; /* Centrar las tarjetas en el eje horizontal */
